@@ -78,4 +78,34 @@ This business profile is built as a **responsive digital card website**:
 ---
 
 ## 📁 Project Structure
+📦 Bee Queen Digital Card
+┣ 📜 index.html
+┣ 🎨 style.css
+┣ ⚙️ app.js
+┣ 📂 assets
+┗ 📄 README.md
+
+
+---
+
+## 🏗️ Built & Managed By
+
+<h3 align="center">Yotta Forge</h3>
+
+<p align="center">
+  Premium Websites • Business Automation • Digital Branding
+</p>
+
+<p align="center">
+  📞 +91 86086 33110 <br/>
+  📧 yottaforgeofficial@gmail.com <br/>
+  🌐 https://yottaforge.netlify.app
+</p>
+
+---
+
+<p align="center">
+  <strong>© 2026 Bee Queen – The Saree Spa</strong><br/>
+  Crafted with ❤️ by Yotta Forge
+</p>
 
