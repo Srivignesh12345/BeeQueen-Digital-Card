@@ -159,6 +159,38 @@ body {
   }
 }
 
+/* LOCATION SECTION */
+.location-section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.location-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #2c2c54;
+}
+
+.location-section iframe {
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .location-section h2 {
+    font-size: 24px;
+  }
+
+  .location-section iframe {
+    height: 300px;
+  }
+}
+
 /* HIGHLIGHTS */
 .highlights {
   display: flex;
