@@ -11,6 +11,9 @@
   <a href="tel:+919486574281">
     <img src="https://img.shields.io/badge/Call%20Bee%20Queen-Direct%20Call-4B0082?style=for-the-badge&logo=phone&logoColor=white" />
   </a>
+  <a href="https://maps.app.goo.gl/qWhmKAkeRBxGTg7e7">
+    <img src="https://img.shields.io/badge/Location-View%20on%20Maps-FF6B35?style=for-the-badge&logo=google-maps&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -63,6 +66,7 @@ This business profile is built as a **responsive digital card website**:
 - 📱 Mobile, Tablet & Desktop Friendly  
 - 🔢 Animated Customer Counters  
 - 🎯 Clean CTA Buttons  
+- 🗺️ Interactive Location Map (Embedded Google Maps)  
 - 🧾 Service Request Form (Google Form / Backend Ready)
 
 ---
@@ -78,12 +82,17 @@ This business profile is built as a **responsive digital card website**:
 ---
 
 ## 📁 Project Structure
+```
 📦 Bee Queen Digital Card
 ┣ 📜 index.html
 ┣ 🎨 style.css
 ┣ ⚙️ app.js
-┣ 📂 assets
+┣ 📂 templates/
+┃ ┗ 🖼️ logo.jpg
+┣ 📄 .hintrc
+┣ 📂 .vscode/
 ┗ 📄 README.md
+```
 
 
 ---
