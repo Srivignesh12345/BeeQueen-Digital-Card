@@ -222,14 +222,16 @@ function loadPublicPosts() {
           <div class="blog-card-media">
             ${p.mediaUrl
               ? (p.mediaType === "video"
-                  ? `<video src="${p.mediaUrl}" class="blog-media" muted></video>`
+                  ? `<video src="${p.mediaUrl}" class="blog-media" muted playsinline></video>`
                   : `<img src="${p.mediaUrl}" class="blog-media" alt="${p.title}" />`)
               : `<div class="blog-media-placeholder"><i class="fas fa-feather-alt"></i></div>`}
           </div>
           <div class="blog-card-body">
-            <p class="blog-date">${p.date}</p>
+            <span class="blog-date"><i class="fas fa-calendar-alt"></i> ${p.date}</span>
             <h3 class="blog-title">${p.title}</h3>
-            <p class="blog-excerpt">${p.content.length > 120 ? p.content.slice(0, 120) + "…" : p.content}</p>
+            <div class="blog-excerpt-box">
+              <p>${p.content.length > 130 ? p.content.slice(0, 130) + "…" : p.content}</p>
+            </div>
             <span class="read-more">Read more <i class="fas fa-arrow-right"></i></span>
           </div>
         </div>`;
