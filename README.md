@@ -91,7 +91,7 @@ Bee Queen includes a fully functional **admin-only blog system**:
 - One-click publish to Firebase
 - Manage & delete existing posts
 
-> **Admin Password:** `BeeQueen@2026`  
+> **Admin Password:** `Beequeen@123`  
 > To change it, update line 5 in `blog.js`
 
 ---

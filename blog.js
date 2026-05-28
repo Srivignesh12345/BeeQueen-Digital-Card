@@ -19,7 +19,7 @@ const firebaseConfig = {
 
 const CLOUDINARY_CLOUD = "dq1ta9gxe";
 const CLOUDINARY_PRESET = "beequeen_uploads";
-const ADMIN_PASSWORD = "BeeQueen@2026";
+const ADMIN_PASSWORD = "Beequeen@123";
 
 /* ---------- INIT ---------- */
 const app = initializeApp(firebaseConfig);
