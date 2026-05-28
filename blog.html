@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog – Bee Queen The Saree Spa</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <section class="blog-hero">
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+    <h1>Our Blog</h1>
+    <p>Tips, stories & saree care insights from Bee Queen</p>
+  </section>
+
+  <section class="blog-grid-section">
+    <div class="blog-grid" id="blogGrid">
+      <!-- Posts injected by JS -->
+    </div>
+    <p class="no-posts" id="noPosts" style="display:none;">No posts yet. Check back soon! 🐝</p>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-inner" onclick="event.stopPropagation()">
+      <button class="lb-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+      <div id="lbMedia"></div>
+      <p id="lbCaption"></p>
+    </div>
+  </div>
+
+  <footer><span>© 2026 Bee Queen – The Saree Spa</span></footer>
+
+  <script type="module" src="blog.js"></script>
+</body>
+</html>
