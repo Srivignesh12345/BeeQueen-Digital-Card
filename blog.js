@@ -261,7 +261,10 @@ window.openLightbox = async function (id) {
 };
 
 window.closeLightbox = function () {
-  document.getElementById("lightbox").classList.remove("active");
+  const lb = document.getElementById("lightbox");
+  const video = lb.querySelector("video");
+  if (video) { video.pause(); video.currentTime = 0; }
+  lb.classList.remove("active");
   document.body.style.overflow = "";
 };
 
